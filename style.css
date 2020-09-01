@@ -1,0 +1,303 @@
+* {
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+
+body {
+	background-image:url('./images/9.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/* ===First Section=== */
+form {
+   min-height:450px;
+   max-width:100%;
+   background:#f4f4f4;
+   box-shadow:5px 5px #B3E6FF;
+   overflow:hidden;
+   box-sizing:border-box;
+   border:2px solid #B3E6FF;
+   margin:30px 30px;
+   display:flex;
+   flex-direction:column;
+   font-family: 'Raleway', sans-serif;
+   flex-wrap:wrap;
+}
+
+/* ===First first Sub=== */
+
+
+form .image {
+	flex:3;
+	display:flex;
+	background:#f5f5f5
+}
+
+.image .user-logo {
+	flex:1;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.image .icon {
+	width:15%;
+}
+
+/* ===First second sub ===*/
+
+form .content {
+	flex:8;
+}
+
+/* ===content=== */
+.content {
+	display:flex;
+}
+
+.content .inside-content {
+	flex:1;
+	display:flex;
+	flex-direction:column;
+	padding:20px;
+}
+
+.inside-content .content-main-1 {
+	flex:1;
+	display:flex;
+	flex-direction:column;
+}
+
+.inside-content .content-main-2 {
+	flex:1;
+	display:flex;
+	flex-direction:column;
+}
+
+/********/
+
+.content-main-1  .c-m-1-first {
+	flex:1;
+	display:flex;
+	flex-direction:row;
+}
+
+.content-main-1  .c-m-1-second {
+	flex:1;
+	display:flex;
+	flex-direction:row;
+}
+
+.content-main-1  .c-m-1-third {
+	flex:1;
+}
+
+/********/
+.c-m-1-first #lbl-username {
+	flex:2;
+	display:flex;
+}
+
+.c-m-1-first #username {
+	flex:8;
+	display:flex;
+}
+
+/*******/
+.c-m-1-first #lbl-username .lbl-username {
+	flex:1;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.c-m-1-first #username .username {
+	flex:1;
+	background:#f4f4f4;
+	outline:none;
+	border:none;
+	padding-left:20px;
+	border-bottom:2px solid #001A2C;
+}
+
+
+/**********/
+.c-m-1-second #lbl-password {
+	flex:2;
+	display:flex;
+}
+
+.c-m-1-second #password {
+	flex:8;
+	display:flex;
+}
+
+.c-m-1-second #password .password {
+	flex:1;
+	border:none;
+	outline:none;
+	border-bottom:2px solid #001A2C;
+	background:#f4f4f4;
+	padding-left:20px;
+}
+
+.c-m-1-second #lbl-password .lbl-password {
+	flex:1;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+/******/
+.content-main-1 .c-m-1-third {
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	
+}
+
+.content-main-1 .c-m-1-third .submit {
+	background:blue;
+	color:whitesmoke;
+	text-transform:uppercase;
+	padding:8px 15px 8px 15px;
+	border-radius:10px;
+	outline:none;
+	border:none;
+	
+}
+
+/*
+======+=============
+main cont 2
+====================
+*/
+
+.content-main-2 .c-m-2-first {
+	flex:1;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-transform:uppercase;
+}
+
+.content-main-2 .c-m-2-second {
+	flex:1;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+
+}
+
+.content-main-2 .c-m-2-third {
+	flex:1;
+	display:flex;
+}
+
+/***/
+.c-m-2-second .btn {
+	flex:1;
+	display:flex;
+}
+/*****/
+.c-m-2-second .c-m-2-facebook {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.c-m-2-second .c-m-2-github {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.c-m-2-second .c-m-2-google {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+/******/
+.c-m-2-second .c-m-2-facebook button {
+	flex:5;
+	padding:10px 0;
+	background:blue;
+	border:none;
+	color:#fff;
+	outline:none;
+	border-radius:10px;
+}
+
+.c-m-2-second .c-m-2-github button {
+	flex:5;
+	padding:10px 0;
+	background:#555555;
+	outline:none;
+	border:none;
+	color:#fff;
+	border-radius:10px;
+}
+
+.c-m-2-second .c-m-2-google button {
+	flex:5;
+	padding:10px 0;
+	background:green;
+	outline:none;
+	border:none;
+	color:#fff;
+	border-radius:10px;
+}
+/*****/
+
+.c-m-2-second .c-m-2-google .brand-icon {
+	flex:1;
+	padding:0 0 0 13px;
+	font-size:26px;
+	color:red;
+}
+
+.c-m-2-second .c-m-2-facebook .brand-icon {
+	flex:1;
+	padding:0 0 0 13px;
+	font-size:27px;
+	color:blue;
+}
+
+.c-m-2-second .c-m-2-github .brand-icon {
+	flex:1;
+	padding-left:13px;
+	font-size:27px;
+	color:#000;
+}
+
+
+/*******
+
+*/
+
+.c-m-2-third div {
+	flex:1;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+	
+	.content-main-1  .c-m-1-first, .content-main-1 .c-m-1-second{
+		flex:1;
+	 	display:flex;
+		flex-direction:column;
+		margin:10px;
+	}
+	form{
+		margin:20px 0;
+	}
+}
+
